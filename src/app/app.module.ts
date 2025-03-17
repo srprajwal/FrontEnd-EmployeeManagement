@@ -7,9 +7,10 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ListEmployeeComponent } from './list-employee/list-employee.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ListEmployeeComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
