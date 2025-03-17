@@ -22,4 +22,15 @@ export class ListEmployeeComponent implements OnInit {
       this.employees = data;
     });
   }
+
+  // updateEmployee(empId: number) {
+  //   this.router.navigate(['update-employee', empId]);
+  // }
+
+  // deleteEmployee(empId: number) {
+  //   this.employeeService.deleteEmployeeById(empId).subscribe((data) => {
+  //     console.log(data);
+  //     this.getEmployees();
+  //   });
+  // }
 }
